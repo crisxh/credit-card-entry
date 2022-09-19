@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CardForm from './components/CardForm';
+import CardFront from './components/CardFront';
+import CardBack from './components/CardBack';
+import Card from './img/images/Card';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div id="App">
+ <Card/>
+       <CardForm/>
     </div>
   );
 }
