@@ -18,6 +18,7 @@
   padding:5%;
   height: 80%;
   background-color:lightblue;
+  overflow:hidden;
 }
 .App-header {
   background-color: #282c34;
@@ -59,8 +60,14 @@ body{
  
   
 }
+.nameExp{
+  display:flex;
+  justify-content: space-between;
+}
 
 .cardFront{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
   position:relative;
   left:20px;
   background-image:url('img/images/bg-card-front.png');
@@ -68,6 +75,38 @@ body{
 
 .cardBack{
   position:relative;
-  left:50px;
+  left:25%;
 background-image:url('img/images/bg-card-back.png')
+}
+
+#Card{
+  background-image:url('img/images/bg-main-desktop.png');
+  border:2px solid black;
+  height: 100vh;
+}
+
+#Form{
+  padding:10%;
+  padding-left:50%;
+  outline:2px solid black;
+  background-color: #fff;
+}
+
+#Form >form{
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr;
+}
+
+#exp{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#exp>input{
+  width: 50%;
+}
+#cvcExp{
+  display:grid;
+  grid-template-columns:1fr 1fr;
 }
