@@ -3,13 +3,13 @@ function CardFront(props){
         <div>
         <div className="card cardFront">
           <div>
-          {props.Logo}
+          <img src={props.logo} alt="card favicon" />
           </div>
         
-          <div>{props.ccNumber}</div>
+          <div className="cardNumber">{props.ccNumber}</div>
           <div className="nameExp">
             <div>{props.ccName}</div>
-            <div>{props.ccExp}</div>
+            <div>{props.exp}</div>
           </div>
         </div>
        

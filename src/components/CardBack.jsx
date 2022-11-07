@@ -1,8 +1,12 @@
-function CardBack(){
+function CardBack(props){
     return(
         <div>
         <div className="card cardBack">
-          card back
+          <div className="card cvcContainer">
+            <div className="cvc">
+              {props.cvc}
+            </div>
+            </div>
         </div>
        
       </div>
