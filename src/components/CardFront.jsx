@@ -9,7 +9,7 @@ function CardFront(props){
           <div className="cardNumber">{props.ccNumber}</div>
           <div className="nameExp">
             <div>{props.ccName}</div>
-            <div>{props.exp}</div>
+            <div>{props.expMM}/{props.expYY} </div>
           </div>
         </div>
        
