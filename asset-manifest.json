@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a640b6ab.css",
-    "main.js": "/static/js/main.9cb47386.js",
-    "static/js/787.cafb03fc.chunk.js": "/static/js/787.cafb03fc.chunk.js",
-    "static/media/bg-main-desktop.png": "/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
-    "static/media/bg-card-back.png": "/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
-    "static/media/bg-card-front.png": "/static/media/bg-card-front.8153e2ca184402a8385f.png",
-    "index.html": "/index.html",
-    "main.a640b6ab.css.map": "/static/css/main.a640b6ab.css.map",
-    "main.9cb47386.js.map": "/static/js/main.9cb47386.js.map",
-    "787.cafb03fc.chunk.js.map": "/static/js/787.cafb03fc.chunk.js.map"
+    "main.css": "/credit-card-entry/static/css/main.a630d841.css",
+    "main.js": "/credit-card-entry/static/js/main.c60850ab.js",
+    "static/js/787.cafb03fc.chunk.js": "/credit-card-entry/static/js/787.cafb03fc.chunk.js",
+    "static/media/bg-main-desktop.png": "/credit-card-entry/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "static/media/bg-card-back.png": "/credit-card-entry/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/credit-card-entry/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "index.html": "/credit-card-entry/index.html",
+    "main.a630d841.css.map": "/credit-card-entry/static/css/main.a630d841.css.map",
+    "main.c60850ab.js.map": "/credit-card-entry/static/js/main.c60850ab.js.map",
+    "787.cafb03fc.chunk.js.map": "/credit-card-entry/static/js/787.cafb03fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a640b6ab.css",
-    "static/js/main.9cb47386.js"
+    "static/css/main.a630d841.css",
+    "static/js/main.c60850ab.js"
   ]
 }
